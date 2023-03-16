@@ -24,7 +24,39 @@ class ProductScreen extends StatelessWidget {
       appBar: CustomAppBar(
         title: product.name,
       ),
-      bottomNavigationBar: const CustomNavBar(),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.black,
+        child: SizedBox(
+          height: 70,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.share,
+                  color: Colors.white,
+                ),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.favorite,
+                  color: Colors.white,
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
+                child: Text(
+                  'ADD TO CART',
+                  style: Theme.of(context).textTheme.displaySmall,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
       body: ListView(
         children: [
           CarouselSlider(

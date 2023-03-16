@@ -13,14 +13,14 @@ class Category extends Equatable {
     const Category(
         name: 'Soft Drink',
         imageUrl:
-            'https://www.foodnavigator-asia.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-asia.com/article/2018/03/29/soft-drink-health-concerns-not-yet-trickled-down-into-social-media-users-mentions-of-brands/7819019-1-eng-GB/Soft-drink-health-concerns-not-yet-trickled-down-into-social-media-users-mentions-of-brands.jpg'),
+            'https://hips.hearstapps.com/esq.h-cdn.co/assets/15/31/980x490/landscape-1438270598-landscape-1438266198-copkecokecoke.jpg?resize=1200:*'),
     const Category(
         name: 'Smoothies',
         imageUrl:
-            'https://insanelygoodrecipes.com/wp-content/uploads/2021/09/Healthy-Colorful-Smoothies-on-Jars.jpg'),
+            'https://www.caribbeannationalweekly.com/wp-content/uploads/2017/06/landscape-1462989593-delish-smoothies-index.jpg'),
     const Category(
         name: 'Water',
         imageUrl:
-            'https://culligan.com.pk/images/backend-images/product/large/featured-image5837383.jpg'),
+            'https://cdn.winsightmedia.com/platform/files/public/2021-03/background/Nestle%20shutterstock_1617216345.jpg?VersionId=840IFPj8a3D_M8MImdBIp_Rwhy7.h6sj'),
   ];
 }

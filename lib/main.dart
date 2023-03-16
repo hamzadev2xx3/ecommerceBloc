@@ -4,7 +4,7 @@ import 'package:ecommerce_app/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
